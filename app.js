@@ -215,7 +215,7 @@ async function loadData() {
   state.questions = questions;
   state.departments = departments;
   state.universities = universities;
-  state.activeQuestions = questions; // ルーティング後に絞り込まれる
+  state.activeQuestions = questions.filter(q => STEP1_IDS.includes(q.id));
   elements.totalCount.textContent = String(state.activeQuestions.length);
   setupDeviationFilter();
 }
@@ -329,7 +329,7 @@ function restart() {
   state.currentIndex = 0;
   state.answers = {};
   state.routingDone = false;
-  state.activeQuestions = state.questions;
+  state.activeQuestions = state.questions.filter(q => STEP1_IDS.includes(q.id));
   elements.totalCount.textContent = String(state.activeQuestions.length);
   updateHeader();
   showScreen("intro");
