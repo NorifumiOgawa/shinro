@@ -1,0 +1,119 @@
+[
+  { "name": "東京学芸大学", "type": "national", "prefecture": "東京都", "faculty": "教育学部", "department": "学校教育教員養成課程", "departmentCategory": "education_child", "deviationValue": null, "url": "https://www.u-gakugei.ac.jp/" },
+  { "name": "埼玉大学", "type": "national", "prefecture": "埼玉県", "faculty": "教育学部", "department": "学校教育教員養成課程", "departmentCategory": "education_child", "deviationValue": null, "url": "https://www.saitama-u.ac.jp/" },
+  { "name": "文教大学", "type": "private", "prefecture": "埼玉県", "faculty": "教育学部", "department": "学校教育課程", "departmentCategory": "education_child", "deviationValue": null, "url": "https://www.bunkyo.ac.jp/" },
+  { "name": "玉川大学", "type": "private", "prefecture": "東京都", "faculty": "教育学部", "department": "教育学科", "departmentCategory": "education_child", "deviationValue": null, "url": "https://www.tamagawa.jp/university/" },
+
+  { "name": "筑波大学", "type": "national", "prefecture": "茨城県", "faculty": "人間学群", "department": "心理学類", "departmentCategory": "psychology", "deviationValue": null, "url": "https://www.tsukuba.ac.jp/" },
+  { "name": "立正大学", "type": "private", "prefecture": "東京都", "faculty": "心理学部", "department": "臨床心理学科", "departmentCategory": "psychology", "deviationValue": null, "url": "https://www.ris.ac.jp/" },
+  { "name": "明治学院大学", "type": "private", "prefecture": "東京都", "faculty": "心理学部", "department": "心理学科", "departmentCategory": "psychology", "deviationValue": null, "url": "https://www.meijigakuin.ac.jp/" },
+  { "name": "京都橘大学", "type": "private", "prefecture": "京都府", "faculty": "総合心理学部", "department": "総合心理学科", "departmentCategory": "psychology", "deviationValue": null, "url": "https://www.tachibana-u.ac.jp/" },
+
+  { "name": "千葉大学", "type": "national", "prefecture": "千葉県", "faculty": "看護学部", "department": "看護学科", "departmentCategory": "nursing_health", "deviationValue": null, "url": "https://www.chiba-u.ac.jp/" },
+  { "name": "東京都立大学", "type": "public", "prefecture": "東京都", "faculty": "健康福祉学部", "department": "看護学科", "departmentCategory": "nursing_health", "deviationValue": null, "url": "https://www.tmu.ac.jp/" },
+  { "name": "聖路加国際大学", "type": "private", "prefecture": "東京都", "faculty": "看護学部", "department": "看護学科", "departmentCategory": "nursing_health", "deviationValue": null, "url": "https://university.luke.ac.jp/" },
+  { "name": "北里大学", "type": "private", "prefecture": "神奈川県", "faculty": "医療衛生学部", "department": "リハビリテーション学科", "departmentCategory": "nursing_health", "deviationValue": null, "url": "https://www.kitasato-u.ac.jp/" },
+
+  { "name": "日本福祉大学", "type": "private", "prefecture": "愛知県", "faculty": "社会福祉学部", "department": "社会福祉学科", "departmentCategory": "welfare", "deviationValue": null, "url": "https://www.n-fukushi.ac.jp/" },
+  { "name": "東北福祉大学", "type": "private", "prefecture": "宮城県", "faculty": "総合福祉学部", "department": "社会福祉学科", "departmentCategory": "welfare", "deviationValue": null, "url": "https://www.tfu.ac.jp/" },
+  { "name": "淑徳大学", "type": "private", "prefecture": "千葉県", "faculty": "総合福祉学部", "department": "社会福祉学科", "departmentCategory": "welfare", "deviationValue": null, "url": "https://www.shukutoku.ac.jp/" },
+
+  { "name": "早稲田大学", "type": "private", "prefecture": "東京都", "faculty": "商学部", "department": "商学科", "departmentCategory": "business_management", "deviationValue": null, "url": "https://www.waseda.jp/" },
+  { "name": "慶應義塾大学", "type": "private", "prefecture": "東京都", "faculty": "商学部", "department": "商学科", "departmentCategory": "business_management", "deviationValue": null, "url": "https://www.keio.ac.jp/" },
+  { "name": "一橋大学", "type": "national", "prefecture": "東京都", "faculty": "商学部", "department": "経営学科", "departmentCategory": "business_management", "deviationValue": null, "url": "https://www.hit-u.ac.jp/" },
+  { "name": "関西学院大学", "type": "private", "prefecture": "兵庫県", "faculty": "商学部", "department": "商学科", "departmentCategory": "business_management", "deviationValue": null, "url": "https://www.kwansei.ac.jp/" },
+
+  { "name": "東京大学", "type": "national", "prefecture": "東京都", "faculty": "経済学部", "department": "経済学科", "departmentCategory": "economics", "deviationValue": null, "url": "https://www.u-tokyo.ac.jp/" },
+  { "name": "京都大学", "type": "national", "prefecture": "京都府", "faculty": "経済学部", "department": "経済経営学科", "departmentCategory": "economics", "deviationValue": null, "url": "https://www.kyoto-u.ac.jp/" },
+  { "name": "大阪公立大学", "type": "public", "prefecture": "大阪府", "faculty": "経済学部", "department": "経済学科", "departmentCategory": "economics", "deviationValue": null, "url": "https://www.omu.ac.jp/" },
+  { "name": "明治大学", "type": "private", "prefecture": "東京都", "faculty": "政治経済学部", "department": "経済学科", "departmentCategory": "economics", "deviationValue": null, "url": "https://www.meiji.ac.jp/" },
+
+  { "name": "中央大学", "type": "private", "prefecture": "東京都", "faculty": "法学部", "department": "法律学科", "departmentCategory": "law_policy", "deviationValue": null, "url": "https://www.chuo-u.ac.jp/" },
+  { "name": "神戸大学", "type": "national", "prefecture": "兵庫県", "faculty": "法学部", "department": "法律学科", "departmentCategory": "law_policy", "deviationValue": null, "url": "https://www.kobe-u.ac.jp/" },
+  { "name": "東京都立大学", "type": "public", "prefecture": "東京都", "faculty": "法学部", "department": "法学科", "departmentCategory": "law_policy", "deviationValue": null, "url": "https://www.tmu.ac.jp/" },
+  { "name": "同志社大学", "type": "private", "prefecture": "京都府", "faculty": "法学部", "department": "法律学科", "departmentCategory": "law_policy", "deviationValue": null, "url": "https://www.doshisha.ac.jp/" },
+
+  { "name": "東京外国語大学", "type": "national", "prefecture": "東京都", "faculty": "言語文化学部", "department": "言語文化学科", "departmentCategory": "international_languages", "deviationValue": null, "url": "https://www.tufs.ac.jp/" },
+  { "name": "上智大学", "type": "private", "prefecture": "東京都", "faculty": "外国語学部", "department": "英語学科", "departmentCategory": "international_languages", "deviationValue": null, "url": "https://www.sophia.ac.jp/" },
+  { "name": "関西外国語大学", "type": "private", "prefecture": "大阪府", "faculty": "外国語学部", "department": "英米語学科", "departmentCategory": "international_languages", "deviationValue": null, "url": "https://www.kansaigaidai.ac.jp/" },
+  { "name": "立命館アジア太平洋大学", "type": "private", "prefecture": "大分県", "faculty": "アジア太平洋学部", "department": "アジア太平洋学科", "departmentCategory": "international_languages", "deviationValue": null, "url": "https://www.apu.ac.jp/" },
+
+  { "name": "國學院大學", "type": "private", "prefecture": "東京都", "faculty": "文学部", "department": "史学科", "departmentCategory": "literature_history", "deviationValue": null, "url": "https://www.kokugakuin.ac.jp/" },
+  { "name": "奈良大学", "type": "private", "prefecture": "奈良県", "faculty": "文学部", "department": "文化財学科", "departmentCategory": "literature_history", "deviationValue": null, "url": "https://www.nara-u.ac.jp/" },
+  { "name": "早稲田大学", "type": "private", "prefecture": "東京都", "faculty": "文学部", "department": "文学科", "departmentCategory": "literature_history", "deviationValue": null, "url": "https://www.waseda.jp/" },
+
+  { "name": "立教大学", "type": "private", "prefecture": "東京都", "faculty": "社会学部", "department": "メディア社会学科", "departmentCategory": "sociology_media", "deviationValue": null, "url": "https://www.rikkyo.ac.jp/" },
+  { "name": "関西大学", "type": "private", "prefecture": "大阪府", "faculty": "社会学部", "department": "社会学科", "departmentCategory": "sociology_media", "deviationValue": null, "url": "https://www.kansai-u.ac.jp/" },
+  { "name": "成城大学", "type": "private", "prefecture": "東京都", "faculty": "社会イノベーション学部", "department": "心理社会学科", "departmentCategory": "sociology_media", "deviationValue": null, "url": "https://www.seijo.ac.jp/" },
+
+  { "name": "筑波大学", "type": "national", "prefecture": "茨城県", "faculty": "情報学群", "department": "情報科学類", "departmentCategory": "computer_science", "deviationValue": null, "url": "https://www.tsukuba.ac.jp/" },
+  { "name": "電気通信大学", "type": "national", "prefecture": "東京都", "faculty": "情報理工学域", "department": "I類 情報系", "departmentCategory": "computer_science", "deviationValue": null, "url": "https://www.uec.ac.jp/" },
+  { "name": "会津大学", "type": "public", "prefecture": "福島県", "faculty": "コンピュータ理工学部", "department": "コンピュータ理工学科", "departmentCategory": "computer_science", "deviationValue": null, "url": "https://u-aizu.ac.jp/" },
+  { "name": "東京電機大学", "type": "private", "prefecture": "東京都", "faculty": "システムデザイン工学部", "department": "情報システム工学科", "departmentCategory": "computer_science", "deviationValue": null, "url": "https://www.dendai.ac.jp/" },
+
+  { "name": "滋賀大学", "type": "national", "prefecture": "滋賀県", "faculty": "データサイエンス学部", "department": "データサイエンス学科", "departmentCategory": "ai_data", "deviationValue": null, "url": "https://www.shiga-u.ac.jp/" },
+  { "name": "横浜市立大学", "type": "public", "prefecture": "神奈川県", "faculty": "データサイエンス学部", "department": "データサイエンス学科", "departmentCategory": "ai_data", "deviationValue": null, "url": "https://www.yokohama-cu.ac.jp/" },
+  { "name": "武蔵野大学", "type": "private", "prefecture": "東京都", "faculty": "データサイエンス学部", "department": "データサイエンス学科", "departmentCategory": "ai_data", "deviationValue": null, "url": "https://www.musashino-u.ac.jp/" },
+
+  { "name": "長崎県立大学", "type": "public", "prefecture": "長崎県", "faculty": "情報システム学部", "department": "情報セキュリティ学科", "departmentCategory": "cyber_security", "deviationValue": null, "url": "https://sun.ac.jp/" },
+  { "name": "神奈川工科大学", "type": "private", "prefecture": "神奈川県", "faculty": "情報学部", "department": "情報ネットワーク・コミュニケーション学科", "departmentCategory": "cyber_security", "deviationValue": null, "url": "https://www.kait.jp/" },
+  { "name": "近畿大学", "type": "private", "prefecture": "大阪府", "faculty": "情報学部", "department": "情報学科", "departmentCategory": "cyber_security", "deviationValue": null, "url": "https://www.kindai.ac.jp/" },
+
+  { "name": "東京科学大学", "type": "national", "prefecture": "東京都", "faculty": "工学院", "department": "機械系", "departmentCategory": "mechanical_robotics", "deviationValue": null, "url": "https://www.isct.ac.jp/" },
+  { "name": "東京理科大学", "type": "private", "prefecture": "東京都", "faculty": "先進工学部", "department": "機能デザイン工学科", "departmentCategory": "mechanical_robotics", "deviationValue": null, "url": "https://www.tus.ac.jp/" },
+  { "name": "芝浦工業大学", "type": "private", "prefecture": "東京都", "faculty": "工学部", "department": "機械工学課程", "departmentCategory": "mechanical_robotics", "deviationValue": null, "url": "https://www.shibaura-it.ac.jp/" },
+  { "name": "立命館大学", "type": "private", "prefecture": "京都府", "faculty": "理工学部", "department": "ロボティクス学科", "departmentCategory": "mechanical_robotics", "deviationValue": null, "url": "https://www.ritsumei.ac.jp/" },
+
+  { "name": "東京科学大学", "type": "national", "prefecture": "東京都", "faculty": "工学院", "department": "電気電子系", "departmentCategory": "electrical_electronics", "deviationValue": null, "url": "https://www.isct.ac.jp/" },
+  { "name": "東北大学", "type": "national", "prefecture": "宮城県", "faculty": "工学部", "department": "電気情報物理工学科", "departmentCategory": "electrical_electronics", "deviationValue": null, "url": "https://www.tohoku.ac.jp/" },
+  { "name": "九州工業大学", "type": "national", "prefecture": "福岡県", "faculty": "工学部", "department": "電気電子工学科", "departmentCategory": "electrical_electronics", "deviationValue": null, "url": "https://www.kyutech.ac.jp/" },
+
+  { "name": "東京理科大学", "type": "private", "prefecture": "東京都", "faculty": "創域理工学部", "department": "建築学科", "departmentCategory": "architecture_urban", "deviationValue": null, "url": "https://www.tus.ac.jp/" },
+  { "name": "横浜国立大学", "type": "national", "prefecture": "神奈川県", "faculty": "都市科学部", "department": "建築学科", "departmentCategory": "architecture_urban", "deviationValue": null, "url": "https://www.ynu.ac.jp/" },
+  { "name": "千葉大学", "type": "national", "prefecture": "千葉県", "faculty": "工学部", "department": "総合工学科 建築学コース", "departmentCategory": "architecture_urban", "deviationValue": null, "url": "https://www.chiba-u.ac.jp/" },
+  { "name": "日本大学", "type": "private", "prefecture": "東京都", "faculty": "理工学部", "department": "建築学科", "departmentCategory": "architecture_urban", "deviationValue": null, "url": "https://www.nihon-u.ac.jp/" },
+
+  { "name": "名古屋大学", "type": "national", "prefecture": "愛知県", "faculty": "工学部", "department": "機械・航空宇宙工学科", "departmentCategory": "mobility_aerospace", "deviationValue": null, "url": "https://www.nagoya-u.ac.jp/" },
+  { "name": "東海大学", "type": "private", "prefecture": "神奈川県", "faculty": "工学部", "department": "航空宇宙学科", "departmentCategory": "mobility_aerospace", "deviationValue": null, "url": "https://www.u-tokai.ac.jp/" },
+  { "name": "日本大学", "type": "private", "prefecture": "東京都", "faculty": "理工学部", "department": "航空宇宙工学科", "departmentCategory": "mobility_aerospace", "deviationValue": null, "url": "https://www.nihon-u.ac.jp/" },
+
+  { "name": "東京農工大学", "type": "national", "prefecture": "東京都", "faculty": "工学部", "department": "応用化学科", "departmentCategory": "chemistry_materials", "deviationValue": null, "url": "https://www.tuat.ac.jp/" },
+  { "name": "大阪大学", "type": "national", "prefecture": "大阪府", "faculty": "工学部", "department": "応用自然科学科", "departmentCategory": "chemistry_materials", "deviationValue": null, "url": "https://www.osaka-u.ac.jp/" },
+  { "name": "九州大学", "type": "national", "prefecture": "福岡県", "faculty": "工学部", "department": "材料工学科", "departmentCategory": "chemistry_materials", "deviationValue": null, "url": "https://www.kyushu-u.ac.jp/" },
+
+  { "name": "北海道大学", "type": "national", "prefecture": "北海道", "faculty": "理学部", "department": "生物科学科", "departmentCategory": "biology_life", "deviationValue": null, "url": "https://www.hokudai.ac.jp/" },
+  { "name": "東京農業大学", "type": "private", "prefecture": "東京都", "faculty": "生命科学部", "department": "バイオサイエンス学科", "departmentCategory": "biology_life", "deviationValue": null, "url": "https://www.nodai.ac.jp/" },
+  { "name": "京都産業大学", "type": "private", "prefecture": "京都府", "faculty": "生命科学部", "department": "先端生命科学科", "departmentCategory": "biology_life", "deviationValue": null, "url": "https://www.kyoto-su.ac.jp/" },
+
+  { "name": "東北大学", "type": "national", "prefecture": "宮城県", "faculty": "理学部", "department": "宇宙地球物理学科", "departmentCategory": "earth_space", "deviationValue": null, "url": "https://www.tohoku.ac.jp/" },
+  { "name": "名古屋大学", "type": "national", "prefecture": "愛知県", "faculty": "理学部", "department": "地球惑星科学科", "departmentCategory": "earth_space", "deviationValue": null, "url": "https://www.nagoya-u.ac.jp/" },
+  { "name": "会津大学", "type": "public", "prefecture": "福島県", "faculty": "コンピュータ理工学部", "department": "宇宙情報科学クラスター", "departmentCategory": "earth_space", "deviationValue": null, "url": "https://u-aizu.ac.jp/" },
+
+  { "name": "北海道大学", "type": "national", "prefecture": "北海道", "faculty": "農学部", "department": "生物資源科学科", "departmentCategory": "agriculture_food", "deviationValue": null, "url": "https://www.hokudai.ac.jp/" },
+  { "name": "東京農業大学", "type": "private", "prefecture": "東京都", "faculty": "農学部", "department": "農学科", "departmentCategory": "agriculture_food", "deviationValue": null, "url": "https://www.nodai.ac.jp/" },
+  { "name": "京都大学", "type": "national", "prefecture": "京都府", "faculty": "農学部", "department": "食品生物科学科", "departmentCategory": "agriculture_food", "deviationValue": null, "url": "https://www.kyoto-u.ac.jp/" },
+
+  { "name": "東京海洋大学", "type": "national", "prefecture": "東京都", "faculty": "海洋生命科学部", "department": "海洋生物資源学科", "departmentCategory": "marine_environment", "deviationValue": null, "url": "https://www.kaiyodai.ac.jp/" },
+  { "name": "長崎大学", "type": "national", "prefecture": "長崎県", "faculty": "水産学部", "department": "水産学科", "departmentCategory": "marine_environment", "deviationValue": null, "url": "https://www.nagasaki-u.ac.jp/" },
+  { "name": "鹿児島大学", "type": "national", "prefecture": "鹿児島県", "faculty": "水産学部", "department": "水産学科", "departmentCategory": "marine_environment", "deviationValue": null, "url": "https://www.kagoshima-u.ac.jp/" },
+
+  { "name": "東京都市大学", "type": "private", "prefecture": "東京都", "faculty": "環境学部", "department": "環境創生学科", "departmentCategory": "environment_policy", "deviationValue": null, "url": "https://www.tcu.ac.jp/" },
+  { "name": "鳥取環境大学", "type": "public", "prefecture": "鳥取県", "faculty": "環境学部", "department": "環境学科", "departmentCategory": "environment_policy", "deviationValue": null, "url": "https://www.kankyo-u.ac.jp/" },
+  { "name": "滋賀県立大学", "type": "public", "prefecture": "滋賀県", "faculty": "環境科学部", "department": "環境政策・計画学科", "departmentCategory": "environment_policy", "deviationValue": null, "url": "https://www.usp.ac.jp/" },
+
+  { "name": "早稲田大学", "type": "private", "prefecture": "埼玉県", "faculty": "スポーツ科学部", "department": "スポーツ科学科", "departmentCategory": "sports_health", "deviationValue": null, "url": "https://www.waseda.jp/" },
+  { "name": "日本体育大学", "type": "private", "prefecture": "東京都", "faculty": "体育学部", "department": "体育学科", "departmentCategory": "sports_health", "deviationValue": null, "url": "https://www.nittai.ac.jp/" },
+  { "name": "筑波大学", "type": "national", "prefecture": "茨城県", "faculty": "体育専門学群", "department": "体育学主専攻", "departmentCategory": "sports_health", "deviationValue": null, "url": "https://www.tsukuba.ac.jp/" },
+
+  { "name": "多摩美術大学", "type": "private", "prefecture": "東京都", "faculty": "美術学部", "department": "グラフィックデザイン学科", "departmentCategory": "art_design", "deviationValue": null, "url": "https://www.tamabi.ac.jp/" },
+  { "name": "武蔵野美術大学", "type": "private", "prefecture": "東京都", "faculty": "造形学部", "department": "視覚伝達デザイン学科", "departmentCategory": "art_design", "deviationValue": null, "url": "https://www.musabi.ac.jp/" },
+  { "name": "京都市立芸術大学", "type": "public", "prefecture": "京都府", "faculty": "美術学部", "department": "美術科", "departmentCategory": "art_design", "deviationValue": null, "url": "https://www.kcua.ac.jp/" },
+
+  { "name": "東京工芸大学", "type": "private", "prefecture": "東京都", "faculty": "芸術学部", "department": "アニメーション学科", "departmentCategory": "media_animation", "deviationValue": null, "url": "https://www.t-kougei.ac.jp/" },
+  { "name": "京都精華大学", "type": "private", "prefecture": "京都府", "faculty": "マンガ学部", "department": "アニメーション学科", "departmentCategory": "media_animation", "deviationValue": null, "url": "https://www.kyoto-seika.ac.jp/" },
+  { "name": "日本大学", "type": "private", "prefecture": "東京都", "faculty": "芸術学部", "department": "映画学科", "departmentCategory": "media_animation", "deviationValue": null, "url": "https://www.nihon-u.ac.jp/" },
+
+  { "name": "立教大学", "type": "private", "prefecture": "埼玉県", "faculty": "観光学部", "department": "観光学科", "departmentCategory": "tourism_hospitality", "deviationValue": null, "url": "https://www.rikkyo.ac.jp/" },
+  { "name": "和歌山大学", "type": "national", "prefecture": "和歌山県", "faculty": "観光学部", "department": "観光学科", "departmentCategory": "tourism_hospitality", "deviationValue": null, "url": "https://www.wakayama-u.ac.jp/" },
+  { "name": "琉球大学", "type": "national", "prefecture": "沖縄県", "faculty": "国際地域創造学部", "department": "国際地域創造学科", "departmentCategory": "tourism_hospitality", "deviationValue": null, "url": "https://www.u-ryukyu.ac.jp/" }
+]

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>進路検討 診断システム</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">高校2年生向け</p>
+        <h1>進路検討 診断システム</h1>
+      </div>
+      <div class="header-status">
+        <span id="answeredCount">0</span>/<span id="totalCount">0</span>
+      </div>
+    </header>
+
+    <main>
+      <section id="intro" class="screen active">
+        <div class="intro-grid">
+          <div class="intro-copy">
+            <p class="eyebrow">Interest, Skill, Values</p>
+            <h2>質問に答えて、あなたに向いてそうな学部学科と大学候補を絞り込みます。</h2>
+            <p>
+              働き方、興味、教科の得意不得意、将来重視したいことをもとに、
+              あなたに合いそうな進路の方向性をランキングします。
+            </p>
+            <div class="theory-note">
+              <h3>この診断で見ていること</h3>
+              <p>
+                興味の方向、得意不得意、将来の価値観、学び方の好みをタグ化し、
+                学部学科ごとの特徴と照合します。結果は進路を決めつけるものではなく、
+                あなたがまだ言葉にしきれていない興味の偏りを見つけ、進路検討の出発点にするためのものです。
+              </p>
+            </div>
+            <button id="startButton" class="primary-button">診断を始める</button>
+          </div>
+          <div class="signal-panel" aria-label="診断で扱う領域">
+            <span>人と関わる</span>
+            <span>情報・AI</span>
+            <span>ものづくり</span>
+            <span>自然・環境</span>
+            <span>研究</span>
+            <span>人文社会</span>
+            <span>芸術表現</span>
+            <span>資格・安定</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="diagnosis" class="screen">
+        <div class="progress-wrap">
+          <div class="progress-bar"><span id="progressBar"></span></div>
+          <p id="stepLabel"></p>
+        </div>
+
+        <div class="question-card">
+          <p id="categoryLabel" class="category-label"></p>
+          <h2 id="questionText"></h2>
+          <div id="options" class="option-list"></div>
+        </div>
+
+        <div class="nav-row">
+          <button id="backButton" class="ghost-button">戻る</button>
+          <button id="skipButton" class="ghost-button">スキップ</button>
+          <button id="nextButton" class="primary-button">次へ</button>
+        </div>
+      </section>
+
+      <section id="results" class="screen">
+        <div class="results-header">
+          <div>
+            <p class="eyebrow">Diagnosis Result</p>
+            <h2>おすすめの学部学科</h2>
+          </div>
+          <button id="restartButton" class="ghost-button">最初から</button>
+        </div>
+
+        <div class="result-layout">
+          <aside class="summary-panel">
+            <h3>あなたの傾向</h3>
+            <div id="tagSummary" class="tag-summary"></div>
+          </aside>
+          <section>
+            <div id="departmentResults" class="department-results"></div>
+          </section>
+        </div>
+
+        <section class="filter-section">
+          <div class="section-title">
+            <h2>大学候補を絞り込む</h2>
+            <p>診断結果の分野、都道府県、大学種別で候補を見ます。偏差値は利用許諾済みデータ投入後に有効化されます。</p>
+          </div>
+          <div class="filters">
+            <label>
+              分野
+              <select id="departmentFilter"></select>
+            </label>
+            <label>
+              都道府県
+              <select id="prefectureFilter"></select>
+            </label>
+            <label>
+              大学種別
+              <select id="typeFilter">
+                <option value="">すべて</option>
+                <option value="national">国立</option>
+                <option value="public">公立</option>
+                <option value="private">私立</option>
+              </select>
+            </label>
+            <label>
+              偏差値
+              <select id="deviationFilter">
+                <option value="">すべて</option>
+                <option value="under45">45未満</option>
+                <option value="45-50">45〜50</option>
+                <option value="50-55">50〜55</option>
+                <option value="55-60">55〜60</option>
+                <option value="60-65">60〜65</option>
+                <option value="65plus">65以上</option>
+              </select>
+            </label>
+          </div>
+          <div id="universityResults" class="university-results"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

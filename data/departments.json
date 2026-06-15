@@ -1,0 +1,191 @@
+[
+  {
+    "id": "education_child",
+    "name": "教育学・児童教育",
+    "faculties": ["教育学部", "子ども学部", "人間発達学部"],
+    "description": "教えること、成長を支えること、学校や子どもの環境づくりに関心がある人に向いています。",
+    "tags": { "people": 2, "education": 5, "communication": 2, "social_good": 2, "study": 1 }
+  },
+  {
+    "id": "psychology",
+    "name": "心理学・行動科学",
+    "faculties": ["心理学部", "人間科学部", "文学部"],
+    "description": "心、脳、行動、人間関係を深く知りたい人に向いています。",
+    "tags": { "psychology": 5, "people": 2, "science": 1, "data": 1, "study": 2 }
+  },
+  {
+    "id": "nursing_health",
+    "name": "看護・保健・リハビリ",
+    "faculties": ["看護学部", "保健医療学部", "リハビリテーション学部"],
+    "description": "体や生活を支え、医療現場で人の役に立ちたい人に向いています。",
+    "tags": { "care": 5, "people": 3, "social_good": 3, "stability": 2, "study": 2 }
+  },
+  {
+    "id": "welfare",
+    "name": "福祉・社会福祉",
+    "faculties": ["社会福祉学部", "人間福祉学部", "健康福祉学部"],
+    "description": "生活、地域、高齢者、障がい、制度面から人を支えたい人に向いています。",
+    "tags": { "care": 3, "welfare": 5, "people": 3, "society": 2, "social_good": 4, "law": 1 }
+  },
+  {
+    "id": "business_management",
+    "name": "経営・商学・マーケティング",
+    "faculties": ["経営学部", "商学部", "経済経営学部"],
+    "description": "商品、組織、販売、企画、起業に関心がある人に向いています。",
+    "tags": { "business": 5, "communication": 2, "data": 2, "income": 2, "startup": 2 }
+  },
+  {
+    "id": "economics",
+    "name": "経済学・金融",
+    "faculties": ["経済学部", "政経学部", "国際経済学部"],
+    "description": "お金、投資、社会問題、政策、企業活動を数字で考えたい人に向いています。",
+    "tags": { "business": 3, "society": 3, "data": 3, "math": 2, "income": 2 }
+  },
+  {
+    "id": "law_policy",
+    "name": "法学・政治・行政",
+    "faculties": ["法学部", "政策学部", "公共政策学部"],
+    "description": "ルール、裁判、行政、国際問題、社会制度に関心がある人に向いています。",
+    "tags": { "law": 5, "society": 3, "study": 3, "stability": 2, "social_good": 2 }
+  },
+  {
+    "id": "international_languages",
+    "name": "国際・外国語・文化",
+    "faculties": ["国際学部", "外国語学部", "文学部"],
+    "description": "外国語、異文化、翻訳、国際交流に関心がある人に向いています。",
+    "tags": { "global": 5, "english": 4, "humanities": 2, "communication": 2, "freedom": 1 }
+  },
+  {
+    "id": "literature_history",
+    "name": "文学・歴史・文化",
+    "faculties": ["文学部", "人文学部", "文化学部"],
+    "description": "本、言葉、歴史、文化、思想をじっくり読むことが好きな人に向いています。",
+    "tags": { "humanities": 5, "study": 3, "global": 1, "society": 1, "art": 1 }
+  },
+  {
+    "id": "sociology_media",
+    "name": "社会学・メディア社会",
+    "faculties": ["社会学部", "メディア学部", "現代社会学部"],
+    "description": "流行、地域、家族、ジェンダー、SNS、社会課題を調べたい人に向いています。",
+    "tags": { "society": 5, "media": 2, "data": 2, "communication": 2, "social_good": 2 }
+  },
+  {
+    "id": "computer_science",
+    "name": "情報工学・ソフトウェア",
+    "faculties": ["情報学部", "工学部", "理工学部"],
+    "description": "アプリ、Web、システム開発、プログラミングに関心がある人に向いています。",
+    "tags": { "computer": 5, "math": 3, "engineering": 2, "data": 2, "freedom": 1 }
+  },
+  {
+    "id": "ai_data",
+    "name": "AI・データサイエンス",
+    "faculties": ["データサイエンス学部", "情報学部", "理学部"],
+    "description": "AIを作る、使う、分析する、社会やビジネスに活かすことに関心がある人に向いています。",
+    "tags": { "ai": 5, "data": 5, "math": 4, "computer": 3, "graduate": 2 }
+  },
+  {
+    "id": "cyber_security",
+    "name": "情報セキュリティ",
+    "faculties": ["情報学部", "情報セキュリティ学部", "工学部"],
+    "description": "サイバー攻撃への防御、調査、犯罪対策、安定運用に関心がある人に向いています。",
+    "tags": { "security": 5, "computer": 4, "law": 1, "stability": 2, "study": 2 }
+  },
+  {
+    "id": "mechanical_robotics",
+    "name": "機械工学・ロボット",
+    "faculties": ["工学部", "理工学部", "ロボティクス学部"],
+    "description": "機械、制御、ロボット、ものづくりの仕組みに関心がある人に向いています。",
+    "tags": { "engineering": 5, "robotics": 5, "math": 3, "computer": 1, "study": 2 }
+  },
+  {
+    "id": "electrical_electronics",
+    "name": "電気電子・半導体",
+    "faculties": ["工学部", "理工学部", "先進工学部"],
+    "description": "電子回路、電気製品、半導体、通信、エネルギー技術に関心がある人に向いています。",
+    "tags": { "engineering": 5, "math": 3, "science": 2, "computer": 2, "graduate": 1 }
+  },
+  {
+    "id": "architecture_urban",
+    "name": "建築・都市計画",
+    "faculties": ["建築学部", "工学部", "都市科学部"],
+    "description": "建物、空間、街づくり、構造、インテリアに関心がある人に向いています。",
+    "tags": { "architecture": 5, "design": 3, "engineering": 3, "society": 2, "fieldwork": 1 }
+  },
+  {
+    "id": "mobility_aerospace",
+    "name": "自動車・航空宇宙",
+    "faculties": ["工学部", "理工学部", "航空宇宙学部"],
+    "description": "車、EV、航空機、ロケット、人工衛星など移動体に関心がある人に向いています。",
+    "tags": { "mobility": 5, "engineering": 4, "math": 3, "science": 2, "graduate": 2 }
+  },
+  {
+    "id": "chemistry_materials",
+    "name": "化学・材料・エネルギー",
+    "faculties": ["理学部", "工学部", "生命環境学部"],
+    "description": "化学、新素材、エネルギー、半導体材料を研究したい人に向いています。",
+    "tags": { "science": 5, "engineering": 3, "math": 2, "graduate": 3, "environment": 1 }
+  },
+  {
+    "id": "biology_life",
+    "name": "生物・生命科学",
+    "faculties": ["理学部", "生命科学部", "農学部"],
+    "description": "人間、動物、植物、微生物など生命の仕組みに関心がある人に向いています。",
+    "tags": { "science": 5, "environment": 2, "care": 1, "graduate": 3, "study": 2 }
+  },
+  {
+    "id": "earth_space",
+    "name": "地球科学・宇宙科学",
+    "faculties": ["理学部", "理工学部", "地球環境学部"],
+    "description": "宇宙、地球、気象、観測、探査に関心がある人に向いています。",
+    "tags": { "science": 5, "environment": 2, "mobility": 1, "math": 3, "graduate": 3 }
+  },
+  {
+    "id": "agriculture_food",
+    "name": "農学・食品・バイオ",
+    "faculties": ["農学部", "食産業学部", "生命環境学部"],
+    "description": "作物、食品、品種改良、農業経営、食の安全に関心がある人に向いています。",
+    "tags": { "agriculture": 5, "environment": 3, "science": 3, "business": 1, "fieldwork": 2 }
+  },
+  {
+    "id": "marine_environment",
+    "name": "海洋・水産・環境",
+    "faculties": ["海洋学部", "水産学部", "環境学部"],
+    "description": "海の生き物、漁業、船、海洋環境、観光に関心がある人に向いています。",
+    "tags": { "marine": 5, "environment": 4, "science": 3, "fieldwork": 3, "business": 1 }
+  },
+  {
+    "id": "environment_policy",
+    "name": "環境学・地域政策",
+    "faculties": ["環境学部", "地域創生学部", "政策学部"],
+    "description": "自然保護、都市、交通、地域課題、持続可能性に関心がある人に向いています。",
+    "tags": { "environment": 5, "society": 3, "fieldwork": 2, "social_good": 3, "law": 1 }
+  },
+  {
+    "id": "sports_health",
+    "name": "スポーツ科学・健康科学",
+    "faculties": ["スポーツ科学部", "健康科学部", "体育学部"],
+    "description": "競技、トレーニング、健康、身体づくり、スポーツ現場に関心がある人に向いています。",
+    "tags": { "sports": 5, "care": 2, "fieldwork": 3, "people": 2, "science": 1 }
+  },
+  {
+    "id": "art_design",
+    "name": "美術・デザイン",
+    "faculties": ["美術学部", "デザイン学部", "芸術学部"],
+    "description": "絵、製品、広告、ファッション、空間などを形にしたい人に向いています。",
+    "tags": { "art": 5, "design": 5, "media": 1, "freedom": 2, "communication": 1 }
+  },
+  {
+    "id": "media_animation",
+    "name": "映像・アニメ・メディア表現",
+    "faculties": ["メディア学部", "芸術学部", "情報メディア学部"],
+    "description": "映像、YouTube、CG、アニメ、音楽、文章で表現したい人に向いています。",
+    "tags": { "media": 5, "art": 4, "design": 2, "computer": 1, "freedom": 2 }
+  },
+  {
+    "id": "tourism_hospitality",
+    "name": "観光・ホスピタリティ",
+    "faculties": ["観光学部", "国際観光学部", "地域創生学部"],
+    "description": "地域、旅行、接客、イベント、世界中の人との交流に関心がある人に向いています。",
+    "tags": { "people": 3, "global": 3, "business": 2, "fieldwork": 2, "communication": 3, "tourism": 4 }
+  }
+]

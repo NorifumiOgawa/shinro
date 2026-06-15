@@ -1,0 +1,892 @@
+[
+  {
+    "id": "q001",
+    "category": "STEP1 働き方診断",
+    "text": "一番苦にならないのは？",
+    "options": [
+      { "id": "talk", "label": "人と話す", "tags": { "people": 4, "communication": 3 } },
+      { "id": "pc", "label": "パソコンを使う", "tags": { "computer": 4, "data": 1 } },
+      { "id": "make", "label": "モノを作る", "tags": { "engineering": 3, "design": 2 } },
+      { "id": "outside", "label": "外で活動する", "tags": { "fieldwork": 4, "environment": 1 } },
+      { "id": "read", "label": "本や資料を読む", "tags": { "humanities": 3, "study": 3 } },
+      { "id": "visual", "label": "絵や映像で表現する", "tags": { "art": 3, "media": 3, "design": 2 } }
+    ]
+  },
+  {
+    "id": "q002",
+    "category": "STEP1 働き方診断",
+    "text": "休日が1日空いたら、自然に選びそうなのは？",
+    "options": [
+      { "id": "friends", "label": "友達と会う", "tags": { "people": 3, "communication": 2 } },
+      { "id": "pc", "label": "家でPC", "tags": { "computer": 3, "ai": 1 } },
+      { "id": "outside", "label": "外に出る", "tags": { "fieldwork": 3, "tourism": 1 } },
+      { "id": "craft", "label": "工作する", "tags": { "engineering": 2, "design": 2 } },
+      { "id": "book", "label": "本を読む", "tags": { "humanities": 3, "study": 2 } },
+      { "id": "draw", "label": "絵を描く", "tags": { "art": 4, "design": 2 } },
+      { "id": "video", "label": "動画を見る", "tags": { "media": 3, "art": 1 } },
+      { "id": "sports", "label": "スポーツをする", "tags": { "sports": 4, "fieldwork": 1 } }
+    ]
+  },
+  {
+    "id": "q003",
+    "category": "STEP1 働き方診断",
+    "text": "理想の仕事に近いものは？",
+    "options": [
+      { "id": "contact", "label": "人と接する", "tags": { "people": 3, "communication": 3 } },
+      { "id": "solo", "label": "一人で集中", "tags": { "computer": 2, "science": 2, "study": 2 } },
+      { "id": "team", "label": "チームで協力", "tags": { "communication": 3, "business": 1 } },
+      { "id": "field", "label": "外で活動", "tags": { "fieldwork": 4, "environment": 1 } },
+      { "id": "research", "label": "研究", "tags": { "science": 4, "graduate": 3, "study": 2 } },
+      { "id": "manage", "label": "経営", "tags": { "business": 4, "startup": 2, "income": 1 } }
+    ]
+  },
+  {
+    "id": "q004",
+    "category": "STEP2 人と関わる系",
+    "text": "どんな関わり方が好き？",
+    "options": [
+      { "id": "teach", "label": "教える", "tags": { "education": 5, "communication": 2 } },
+      { "id": "help", "label": "助ける", "tags": { "care": 3, "social_good": 3 } },
+      { "id": "sell", "label": "売る", "tags": { "business": 4, "communication": 2 } },
+      { "id": "persuade", "label": "説得する", "tags": { "law": 2, "business": 2, "communication": 3 } },
+      { "id": "lead", "label": "まとめる", "tags": { "business": 2, "education": 1, "communication": 3 } },
+      { "id": "entertain", "label": "楽しませる", "tags": { "media": 3, "art": 2, "people": 2 } }
+    ]
+  },
+  {
+    "id": "q005",
+    "category": "STEP2 人と関わる系",
+    "text": "誰と関わりたい？",
+    "options": [
+      { "id": "infant", "label": "幼児", "tags": { "education": 4, "care": 2 } },
+      { "id": "primary", "label": "小学生", "tags": { "education": 4 } },
+      { "id": "teen", "label": "中高生", "tags": { "education": 3, "psychology": 2 } },
+      { "id": "university", "label": "大学生", "tags": { "education": 2, "business": 1 } },
+      { "id": "worker", "label": "社会人", "tags": { "business": 3, "psychology": 1 } },
+      { "id": "elder", "label": "高齢者", "tags": { "welfare": 3, "care": 3 } },
+      { "id": "patient", "label": "患者", "tags": { "care": 5 } },
+      { "id": "world", "label": "世界中の人", "tags": { "global": 4, "english": 3 } }
+    ]
+  },
+  {
+    "id": "q006",
+    "category": "STEP2 人と関わる系",
+    "text": "何を助けたい？",
+    "options": [
+      { "id": "mind", "label": "心", "tags": { "psychology": 5, "care": 1 } },
+      { "id": "body", "label": "体", "tags": { "care": 5, "sports": 1 } },
+      { "id": "life", "label": "生活", "tags": { "welfare": 4, "social_good": 2 } },
+      { "id": "law", "label": "法律", "tags": { "law": 5, "social_good": 1 } },
+      { "id": "study", "label": "学習", "tags": { "education": 5 } },
+      { "id": "career", "label": "進路", "tags": { "education": 2, "psychology": 2, "business": 1 } }
+    ]
+  },
+  {
+    "id": "q007",
+    "category": "STEP3 パソコン系",
+    "text": "パソコンを使うなら、どれが好き？",
+    "options": [
+      { "id": "build", "label": "作る", "tags": { "computer": 4, "engineering": 1 } },
+      { "id": "analyze", "label": "分析する", "tags": { "data": 5, "math": 2 } },
+      { "id": "protect", "label": "守る", "tags": { "security": 5, "stability": 1 } },
+      { "id": "research", "label": "研究する", "tags": { "ai": 3, "science": 2, "graduate": 2 } }
+    ]
+  },
+  {
+    "id": "q008",
+    "category": "STEP3 パソコン系",
+    "text": "何を作りたい？",
+    "options": [
+      { "id": "app", "label": "アプリ", "tags": { "computer": 5, "business": 1 } },
+      { "id": "web", "label": "Webサイト", "tags": { "computer": 4, "design": 2 } },
+      { "id": "ai", "label": "AI", "tags": { "ai": 5, "data": 3 } },
+      { "id": "game", "label": "ゲーム", "tags": { "computer": 3, "media": 3, "art": 1 } },
+      { "id": "robot", "label": "ロボット", "tags": { "robotics": 5, "engineering": 3, "ai": 1 } },
+      { "id": "device", "label": "電子機器", "tags": { "engineering": 4, "computer": 1 } }
+    ]
+  },
+  {
+    "id": "q009",
+    "category": "STEP3 パソコン系",
+    "text": "何を分析したい？",
+    "options": [
+      { "id": "people", "label": "人", "tags": { "psychology": 3, "data": 3 } },
+      { "id": "money", "label": "お金", "tags": { "business": 2, "data": 4, "math": 2 } },
+      { "id": "society", "label": "社会", "tags": { "society": 3, "data": 3 } },
+      { "id": "nature", "label": "自然", "tags": { "environment": 3, "science": 3 } },
+      { "id": "sports", "label": "スポーツ", "tags": { "sports": 4, "data": 2 } },
+      { "id": "business", "label": "ビジネス", "tags": { "business": 4, "data": 3 } }
+    ]
+  },
+  {
+    "id": "q010",
+    "category": "STEP3 パソコン系",
+    "text": "AIで興味があるのは？",
+    "options": [
+      { "id": "use", "label": "AIを使う", "tags": { "ai": 2, "business": 2, "media": 1 } },
+      { "id": "build", "label": "AIを作る", "tags": { "ai": 5, "computer": 3, "math": 2 } },
+      { "id": "research", "label": "AIを研究する", "tags": { "ai": 5, "science": 3, "graduate": 3 } },
+      { "id": "business", "label": "AIをビジネスに活用する", "tags": { "ai": 3, "business": 4, "data": 2 } }
+    ]
+  },
+  {
+    "id": "q011",
+    "category": "STEP3 パソコン系",
+    "text": "セキュリティで興味があるのは？",
+    "options": [
+      { "id": "defense", "label": "防御", "tags": { "security": 5, "computer": 2 } },
+      { "id": "investigate", "label": "調査", "tags": { "security": 4, "law": 2, "data": 1 } },
+      { "id": "crime", "label": "犯罪対策", "tags": { "security": 3, "law": 3, "social_good": 1 } },
+      { "id": "operation", "label": "システム運用", "tags": { "security": 3, "stability": 3, "computer": 2 } }
+    ]
+  },
+  {
+    "id": "q012",
+    "category": "STEP4 モノづくり系",
+    "text": "何を作りたい？",
+    "options": [
+      { "id": "building", "label": "建物", "tags": { "architecture": 5, "engineering": 2 } },
+      { "id": "car", "label": "車", "tags": { "mobility": 5, "engineering": 3 } },
+      { "id": "airplane", "label": "飛行機", "tags": { "mobility": 4, "engineering": 3 } },
+      { "id": "rocket", "label": "ロケット", "tags": { "mobility": 4, "science": 3, "graduate": 2 } },
+      { "id": "robot", "label": "ロボット", "tags": { "robotics": 5, "engineering": 3 } },
+      { "id": "appliance", "label": "電気製品", "tags": { "engineering": 4, "computer": 1 } },
+      { "id": "material", "label": "材料", "tags": { "science": 4, "engineering": 3 } }
+    ]
+  },
+  {
+    "id": "q013",
+    "category": "STEP4 モノづくり系",
+    "text": "建物で興味があるのは？",
+    "options": [
+      { "id": "design", "label": "デザイン", "tags": { "architecture": 4, "design": 3 } },
+      { "id": "structure", "label": "構造", "tags": { "architecture": 4, "engineering": 3, "math": 2 } },
+      { "id": "city", "label": "街づくり", "tags": { "architecture": 3, "society": 3, "environment": 1 } },
+      { "id": "facility", "label": "設備", "tags": { "architecture": 3, "engineering": 2 } },
+      { "id": "interior", "label": "インテリア", "tags": { "architecture": 3, "design": 4 } }
+    ]
+  },
+  {
+    "id": "q014",
+    "category": "STEP4 モノづくり系",
+    "text": "車で興味があるのは？",
+    "options": [
+      { "id": "engine", "label": "エンジン", "tags": { "mobility": 4, "engineering": 3 } },
+      { "id": "ev", "label": "EV", "tags": { "mobility": 4, "engineering": 3, "environment": 1 } },
+      { "id": "race", "label": "レース", "tags": { "mobility": 3, "sports": 2 } },
+      { "id": "auto", "label": "自動運転", "tags": { "mobility": 3, "ai": 3, "computer": 2 } },
+      { "id": "design", "label": "デザイン", "tags": { "mobility": 2, "design": 4 } }
+    ]
+  },
+  {
+    "id": "q015",
+    "category": "STEP4 モノづくり系",
+    "text": "飛行機・宇宙で興味があるのは？",
+    "options": [
+      { "id": "pilot", "label": "操縦", "tags": { "mobility": 3, "fieldwork": 2 } },
+      { "id": "design", "label": "設計", "tags": { "mobility": 4, "engineering": 4, "math": 2 } },
+      { "id": "rocket", "label": "ロケット", "tags": { "mobility": 4, "science": 3 } },
+      { "id": "satellite", "label": "人工衛星", "tags": { "mobility": 3, "science": 3, "computer": 1 } }
+    ]
+  },
+  {
+    "id": "q016",
+    "category": "STEP4 モノづくり系",
+    "text": "ロボットで興味があるのは？",
+    "options": [
+      { "id": "machine", "label": "機械", "tags": { "robotics": 4, "engineering": 4 } },
+      { "id": "circuit", "label": "電子回路", "tags": { "robotics": 3, "engineering": 4 } },
+      { "id": "ai", "label": "AI", "tags": { "robotics": 3, "ai": 4, "computer": 2 } },
+      { "id": "control", "label": "制御", "tags": { "robotics": 4, "math": 3, "engineering": 2 } }
+    ]
+  },
+  {
+    "id": "q017",
+    "category": "STEP5 外で活動する系",
+    "text": "どこが好き？",
+    "options": [
+      { "id": "sea", "label": "海", "tags": { "marine": 5, "environment": 2 } },
+      { "id": "mountain", "label": "山", "tags": { "environment": 4, "fieldwork": 2 } },
+      { "id": "forest", "label": "森林", "tags": { "environment": 4, "fieldwork": 2 } },
+      { "id": "farm", "label": "農地", "tags": { "agriculture": 5, "fieldwork": 2 } },
+      { "id": "city", "label": "都市", "tags": { "society": 3, "architecture": 2 } },
+      { "id": "sports", "label": "スポーツ現場", "tags": { "sports": 5, "fieldwork": 2 } }
+    ]
+  },
+  {
+    "id": "q018",
+    "category": "STEP5 外で活動する系",
+    "text": "海で興味があるのは？",
+    "options": [
+      { "id": "life", "label": "生き物", "tags": { "marine": 4, "science": 3 } },
+      { "id": "environment", "label": "環境", "tags": { "marine": 3, "environment": 4 } },
+      { "id": "ship", "label": "船", "tags": { "marine": 3, "mobility": 2 } },
+      { "id": "fishery", "label": "漁業", "tags": { "marine": 4, "agriculture": 2 } },
+      { "id": "tourism", "label": "観光", "tags": { "marine": 2, "business": 2, "global": 1 } }
+    ]
+  },
+  {
+    "id": "q019",
+    "category": "STEP5 外で活動する系",
+    "text": "山や森林で興味があるのは？",
+    "options": [
+      { "id": "animal", "label": "動物", "tags": { "environment": 3, "science": 3 } },
+      { "id": "plant", "label": "植物", "tags": { "environment": 3, "science": 3, "agriculture": 1 } },
+      { "id": "forest", "label": "森林", "tags": { "environment": 5, "fieldwork": 2 } },
+      { "id": "conserve", "label": "環境保全", "tags": { "environment": 5, "social_good": 2 } }
+    ]
+  },
+  {
+    "id": "q020",
+    "category": "STEP5 外で活動する系",
+    "text": "農業で興味があるのは？",
+    "options": [
+      { "id": "crop", "label": "作物", "tags": { "agriculture": 5, "science": 1 } },
+      { "id": "food", "label": "食品", "tags": { "agriculture": 4, "science": 2 } },
+      { "id": "management", "label": "経営", "tags": { "agriculture": 3, "business": 3 } },
+      { "id": "tech", "label": "技術", "tags": { "agriculture": 3, "engineering": 2 } },
+      { "id": "breeding", "label": "品種改良", "tags": { "agriculture": 4, "science": 3, "graduate": 1 } }
+    ]
+  },
+  {
+    "id": "q021",
+    "category": "STEP5 外で活動する系",
+    "text": "都市で興味があるのは？",
+    "options": [
+      { "id": "city", "label": "街づくり", "tags": { "architecture": 3, "society": 3 } },
+      { "id": "traffic", "label": "交通", "tags": { "society": 2, "engineering": 2, "mobility": 2 } },
+      { "id": "tourism", "label": "観光", "tags": { "business": 2, "global": 2, "fieldwork": 2 } },
+      { "id": "infra", "label": "インフラ", "tags": { "engineering": 3, "architecture": 2, "stability": 1 } }
+    ]
+  },
+  {
+    "id": "q022",
+    "category": "STEP6 研究・学問系",
+    "text": "一番気になるのは？",
+    "options": [
+      { "id": "space", "label": "宇宙", "tags": { "science": 5, "mobility": 2 } },
+      { "id": "life", "label": "生き物", "tags": { "science": 5, "environment": 2 } },
+      { "id": "human", "label": "人間", "tags": { "psychology": 3, "care": 2 } },
+      { "id": "matter", "label": "物質", "tags": { "science": 5, "engineering": 2 } },
+      { "id": "earth", "label": "地球", "tags": { "science": 4, "environment": 3 } },
+      { "id": "society", "label": "社会", "tags": { "society": 5, "law": 1 } }
+    ]
+  },
+  {
+    "id": "q023",
+    "category": "STEP6 研究・学問系",
+    "text": "宇宙で興味があるのは？",
+    "options": [
+      { "id": "observe", "label": "観測", "tags": { "science": 4, "data": 2 } },
+      { "id": "rocket", "label": "ロケット", "tags": { "mobility": 4, "engineering": 3 } },
+      { "id": "satellite", "label": "人工衛星", "tags": { "mobility": 3, "computer": 2, "science": 2 } },
+      { "id": "explore", "label": "宇宙探査", "tags": { "science": 4, "graduate": 3 } }
+    ]
+  },
+  {
+    "id": "q024",
+    "category": "STEP6 研究・学問系",
+    "text": "生き物で興味があるのは？",
+    "options": [
+      { "id": "human", "label": "人間", "tags": { "care": 3, "science": 2 } },
+      { "id": "animal", "label": "動物", "tags": { "science": 3, "environment": 2 } },
+      { "id": "plant", "label": "植物", "tags": { "science": 3, "agriculture": 2 } },
+      { "id": "marine", "label": "海洋生物", "tags": { "marine": 4, "science": 3 } },
+      { "id": "microbe", "label": "微生物", "tags": { "science": 4, "agriculture": 1, "graduate": 1 } }
+    ]
+  },
+  {
+    "id": "q025",
+    "category": "STEP6 研究・学問系",
+    "text": "人間で興味があるのは？",
+    "options": [
+      { "id": "mind", "label": "心", "tags": { "psychology": 5 } },
+      { "id": "brain", "label": "脳", "tags": { "psychology": 3, "science": 3, "graduate": 2 } },
+      { "id": "behavior", "label": "行動", "tags": { "psychology": 4, "data": 2 } },
+      { "id": "society", "label": "社会", "tags": { "society": 4, "psychology": 1 } }
+    ]
+  },
+  {
+    "id": "q026",
+    "category": "STEP6 研究・学問系",
+    "text": "物質で興味があるのは？",
+    "options": [
+      { "id": "chemistry", "label": "化学", "tags": { "science": 5 } },
+      { "id": "material", "label": "新素材", "tags": { "science": 4, "engineering": 3 } },
+      { "id": "energy", "label": "エネルギー", "tags": { "science": 3, "engineering": 3, "environment": 2 } },
+      { "id": "semiconductor", "label": "半導体", "tags": { "engineering": 4, "science": 3, "computer": 1 } }
+    ]
+  },
+  {
+    "id": "q027",
+    "category": "STEP7 人文社会系",
+    "text": "本を読むなら？",
+    "options": [
+      { "id": "history", "label": "歴史", "tags": { "humanities": 4 } },
+      { "id": "law", "label": "法律", "tags": { "law": 4, "study": 2 } },
+      { "id": "politics", "label": "政治", "tags": { "law": 2, "society": 3 } },
+      { "id": "economics", "label": "経済", "tags": { "business": 3, "society": 2 } },
+      { "id": "psychology", "label": "心理", "tags": { "psychology": 4 } },
+      { "id": "literature", "label": "文学", "tags": { "humanities": 4, "art": 1 } },
+      { "id": "language", "label": "言語", "tags": { "global": 3, "humanities": 3 } }
+    ]
+  },
+  {
+    "id": "q028",
+    "category": "STEP7 人文社会系",
+    "text": "歴史で興味があるのは？",
+    "options": [
+      { "id": "japan", "label": "日本史", "tags": { "humanities": 4 } },
+      { "id": "world", "label": "世界史", "tags": { "humanities": 3, "global": 2 } },
+      { "id": "ruins", "label": "遺跡", "tags": { "humanities": 3, "fieldwork": 2 } },
+      { "id": "culture", "label": "文化", "tags": { "humanities": 3, "global": 2, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q029",
+    "category": "STEP7 人文社会系",
+    "text": "法律で興味があるのは？",
+    "options": [
+      { "id": "trial", "label": "裁判", "tags": { "law": 5 } },
+      { "id": "police", "label": "警察", "tags": { "law": 3, "security": 2, "stability": 1 } },
+      { "id": "admin", "label": "行政", "tags": { "law": 3, "stability": 3, "social_good": 1 } },
+      { "id": "international", "label": "国際問題", "tags": { "law": 3, "global": 3, "society": 1 } }
+    ]
+  },
+  {
+    "id": "q030",
+    "category": "STEP7 人文社会系",
+    "text": "経済で興味があるのは？",
+    "options": [
+      { "id": "money", "label": "お金", "tags": { "business": 3, "income": 2 } },
+      { "id": "company", "label": "企業", "tags": { "business": 4 } },
+      { "id": "investment", "label": "投資", "tags": { "business": 3, "data": 2, "math": 1 } },
+      { "id": "social", "label": "社会問題", "tags": { "society": 3, "business": 1, "social_good": 2 } }
+    ]
+  },
+  {
+    "id": "q031",
+    "category": "STEP7 人文社会系",
+    "text": "言葉で興味があるのは？",
+    "options": [
+      { "id": "foreign", "label": "外国語", "tags": { "global": 5, "english": 3 } },
+      { "id": "translate", "label": "翻訳", "tags": { "global": 4, "humanities": 2, "english": 3 } },
+      { "id": "culture", "label": "文化", "tags": { "global": 3, "humanities": 3 } },
+      { "id": "literature", "label": "文学", "tags": { "humanities": 4, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q032",
+    "category": "STEP8 芸術・表現系",
+    "text": "何で表現したい？",
+    "options": [
+      { "id": "picture", "label": "絵", "tags": { "art": 5, "design": 2 } },
+      { "id": "video", "label": "映像", "tags": { "media": 5, "art": 2 } },
+      { "id": "music", "label": "音楽", "tags": { "art": 4, "media": 2 } },
+      { "id": "design", "label": "デザイン", "tags": { "design": 5, "art": 2 } },
+      { "id": "anime", "label": "アニメ", "tags": { "media": 4, "art": 3 } },
+      { "id": "writing", "label": "文章", "tags": { "humanities": 3, "media": 2, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q033",
+    "category": "STEP8 芸術・表現系",
+    "text": "デザインするなら？",
+    "options": [
+      { "id": "product", "label": "製品", "tags": { "design": 4, "engineering": 1 } },
+      { "id": "building", "label": "建物", "tags": { "architecture": 3, "design": 3 } },
+      { "id": "web", "label": "Web", "tags": { "design": 3, "computer": 3 } },
+      { "id": "ad", "label": "広告", "tags": { "design": 3, "business": 2, "media": 2 } },
+      { "id": "fashion", "label": "ファッション", "tags": { "design": 4, "art": 2 } }
+    ]
+  },
+  {
+    "id": "q034",
+    "category": "STEP8 芸術・表現系",
+    "text": "映像なら？",
+    "options": [
+      { "id": "movie", "label": "映画", "tags": { "media": 4, "art": 3 } },
+      { "id": "youtube", "label": "YouTube", "tags": { "media": 4, "business": 1 } },
+      { "id": "cg", "label": "CG", "tags": { "media": 3, "computer": 2, "design": 2 } },
+      { "id": "anime", "label": "アニメ", "tags": { "media": 4, "art": 3 } }
+    ]
+  },
+  {
+    "id": "q035",
+    "category": "STEP8 芸術・表現系",
+    "text": "文章なら？",
+    "options": [
+      { "id": "novel", "label": "小説", "tags": { "humanities": 3, "art": 3 } },
+      { "id": "writer", "label": "ライター", "tags": { "media": 3, "humanities": 2 } },
+      { "id": "journalism", "label": "ジャーナリズム", "tags": { "media": 3, "society": 3 } },
+      { "id": "pr", "label": "広報", "tags": { "media": 2, "business": 3, "communication": 2 } }
+    ]
+  },
+  {
+    "id": "q036",
+    "category": "最終フィルター",
+    "text": "数学は？",
+    "options": [
+      { "id": "like", "label": "好き", "tags": { "math": 4 } },
+      { "id": "good", "label": "得意", "tags": { "math": 5 } },
+      { "id": "normal", "label": "普通", "tags": { "math": 1 } },
+      { "id": "weak", "label": "苦手", "tags": { "humanities": 1, "art": 1 } },
+      { "id": "hate", "label": "嫌い", "tags": { "humanities": 2, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q037",
+    "category": "最終フィルター",
+    "text": "英語は？",
+    "options": [
+      { "id": "like", "label": "好き", "tags": { "english": 4, "global": 2 } },
+      { "id": "good", "label": "得意", "tags": { "english": 5, "global": 2 } },
+      { "id": "normal", "label": "普通", "tags": { "english": 1 } },
+      { "id": "weak", "label": "苦手", "tags": { "engineering": 1, "care": 1 } },
+      { "id": "hate", "label": "嫌い", "tags": { "engineering": 1, "care": 1 } }
+    ]
+  },
+  {
+    "id": "q038",
+    "category": "最終フィルター",
+    "text": "人前で話すのは？",
+    "options": [
+      { "id": "like", "label": "好き", "tags": { "communication": 5, "people": 2 } },
+      { "id": "good", "label": "得意", "tags": { "communication": 5, "business": 1 } },
+      { "id": "normal", "label": "普通", "tags": { "communication": 1 } },
+      { "id": "weak", "label": "苦手", "tags": { "computer": 1, "science": 1 } },
+      { "id": "hate", "label": "嫌い", "tags": { "computer": 2, "science": 1 } }
+    ]
+  },
+  {
+    "id": "q039",
+    "category": "最終フィルター",
+    "text": "外で活動するのは？",
+    "options": [
+      { "id": "like", "label": "好き", "tags": { "fieldwork": 5, "sports": 1 } },
+      { "id": "good", "label": "得意", "tags": { "fieldwork": 5 } },
+      { "id": "normal", "label": "普通", "tags": { "fieldwork": 1 } },
+      { "id": "weak", "label": "苦手", "tags": { "computer": 1, "humanities": 1 } },
+      { "id": "hate", "label": "嫌い", "tags": { "computer": 2, "humanities": 1 } }
+    ]
+  },
+  {
+    "id": "q040",
+    "category": "最終フィルター",
+    "text": "長時間勉強するのは？",
+    "options": [
+      { "id": "like", "label": "好き", "tags": { "study": 5, "graduate": 2 } },
+      { "id": "good", "label": "得意", "tags": { "study": 5 } },
+      { "id": "normal", "label": "普通", "tags": { "study": 1 } },
+      { "id": "weak", "label": "苦手", "tags": { "fieldwork": 1, "design": 1 } },
+      { "id": "hate", "label": "嫌い", "tags": { "fieldwork": 1, "business": 1 } }
+    ]
+  },
+  {
+    "id": "q041",
+    "category": "最終フィルター",
+    "text": "大学院進学は？",
+    "options": [
+      { "id": "yes", "label": "ぜひ行きたい", "tags": { "graduate": 5, "science": 1 } },
+      { "id": "maybe", "label": "行っても良い", "tags": { "graduate": 2 } },
+      { "id": "bachelor", "label": "学部卒希望", "tags": { "business": 1, "care": 1, "stability": 1 } }
+    ]
+  },
+  {
+    "id": "q042",
+    "category": "最終フィルター",
+    "text": "将来重視するのは？",
+    "options": [
+      { "id": "income", "label": "収入", "tags": { "income": 5, "business": 2 } },
+      { "id": "stable", "label": "安定", "tags": { "stability": 5, "law": 1, "care": 1 } },
+      { "id": "free", "label": "自由", "tags": { "freedom": 5, "art": 1, "computer": 1 } },
+      { "id": "good", "label": "社会貢献", "tags": { "social_good": 5, "care": 1, "education": 1 } },
+      { "id": "research", "label": "研究", "tags": { "graduate": 4, "science": 3 } },
+      { "id": "startup", "label": "起業", "tags": { "startup": 5, "business": 3 } }
+    ]
+  },
+  {
+    "id": "q043",
+    "category": "最終フィルター",
+    "text": "働き方は？",
+    "options": [
+      { "id": "solo", "label": "一人", "tags": { "computer": 2, "science": 2, "freedom": 1 } },
+      { "id": "small", "label": "少人数", "tags": { "design": 1, "engineering": 1, "communication": 1 } },
+      { "id": "team", "label": "チーム", "tags": { "communication": 3, "business": 1, "care": 1 } },
+      { "id": "large", "label": "大人数", "tags": { "business": 2, "law": 1, "society": 1 } }
+    ]
+  },
+  {
+    "id": "q044",
+    "category": "追加質問 性格",
+    "text": "初対面の人と話すことは？",
+    "options": [
+      { "id": "easy", "label": "わりと平気", "tags": { "people": 3, "communication": 3 } },
+      { "id": "listen", "label": "聞き役なら平気", "tags": { "psychology": 2, "care": 2 } },
+      { "id": "hard", "label": "かなり緊張する", "tags": { "computer": 1, "science": 1, "humanities": 1 } },
+      { "id": "depends", "label": "相手による", "tags": { "psychology": 1, "communication": 1 } }
+    ]
+  },
+  {
+    "id": "q045",
+    "category": "追加質問 性格",
+    "text": "困っている人を見ると？",
+    "options": [
+      { "id": "help", "label": "すぐ助けたい", "tags": { "care": 3, "social_good": 3 } },
+      { "id": "ask", "label": "事情を聞きたい", "tags": { "psychology": 3, "people": 2 } },
+      { "id": "system", "label": "仕組みで解決したい", "tags": { "law": 2, "society": 2, "computer": 1 } },
+      { "id": "watch", "label": "少し様子を見る", "tags": { "science": 1, "data": 1 } }
+    ]
+  },
+  {
+    "id": "q046",
+    "category": "追加質問 学び方",
+    "text": "授業で楽しいのは？",
+    "options": [
+      { "id": "experiment", "label": "実験", "tags": { "science": 4, "engineering": 2 } },
+      { "id": "discussion", "label": "議論", "tags": { "law": 2, "society": 2, "communication": 2 } },
+      { "id": "practice", "label": "実習", "tags": { "care": 2, "fieldwork": 2, "engineering": 1 } },
+      { "id": "reading", "label": "読解", "tags": { "humanities": 3, "study": 2 } },
+      { "id": "creation", "label": "制作", "tags": { "art": 3, "design": 3 } }
+    ]
+  },
+  {
+    "id": "q047",
+    "category": "追加質問 学び方",
+    "text": "レポートを書くなら、どんなテーマがよい？",
+    "options": [
+      { "id": "social", "label": "社会問題", "tags": { "society": 4, "law": 1 } },
+      { "id": "tech", "label": "最新技術", "tags": { "computer": 2, "engineering": 3, "ai": 1 } },
+      { "id": "mind", "label": "人の心理", "tags": { "psychology": 4 } },
+      { "id": "culture", "label": "文化や歴史", "tags": { "humanities": 4, "global": 1 } },
+      { "id": "nature", "label": "自然環境", "tags": { "environment": 4, "science": 2 } }
+    ]
+  },
+  {
+    "id": "q048",
+    "category": "追加質問 得意",
+    "text": "得意に近い作業は？",
+    "options": [
+      { "id": "calculate", "label": "計算する", "tags": { "math": 4, "data": 2 } },
+      { "id": "write", "label": "文章を書く", "tags": { "humanities": 3, "media": 2 } },
+      { "id": "explain", "label": "説明する", "tags": { "education": 2, "communication": 3 } },
+      { "id": "draw", "label": "絵や図で考える", "tags": { "design": 4, "art": 2 } },
+      { "id": "assemble", "label": "組み立てる", "tags": { "engineering": 4, "robotics": 2 } }
+    ]
+  },
+  {
+    "id": "q049",
+    "category": "追加質問 将来",
+    "text": "将来、資格を活かして働きたい？",
+    "options": [
+      { "id": "strong", "label": "とてもそう思う", "tags": { "stability": 4, "care": 2, "law": 2, "education": 1 } },
+      { "id": "some", "label": "少しそう思う", "tags": { "stability": 2 } },
+      { "id": "notmuch", "label": "あまりこだわらない", "tags": { "freedom": 2, "business": 1 } },
+      { "id": "no", "label": "資格より実力で勝負したい", "tags": { "startup": 2, "computer": 1, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q050",
+    "category": "追加質問 将来",
+    "text": "仕事で扱いたいものは？",
+    "options": [
+      { "id": "people", "label": "人の悩みや成長", "tags": { "psychology": 3, "education": 3, "care": 1 } },
+      { "id": "money", "label": "お金や商品", "tags": { "business": 4, "income": 1 } },
+      { "id": "machine", "label": "機械やシステム", "tags": { "engineering": 3, "computer": 3 } },
+      { "id": "nature", "label": "自然や生き物", "tags": { "environment": 3, "science": 3 } },
+      { "id": "expression", "label": "作品やコンテンツ", "tags": { "art": 3, "media": 3, "design": 2 } }
+    ]
+  },
+  {
+    "id": "q051",
+    "category": "追加質問 情報",
+    "text": "プログラミングへの印象は？",
+    "options": [
+      { "id": "fun", "label": "楽しそう", "tags": { "computer": 4 } },
+      { "id": "useful", "label": "将来役立ちそう", "tags": { "computer": 2, "business": 1 } },
+      { "id": "hard", "label": "難しそうだが興味はある", "tags": { "computer": 2, "study": 1 } },
+      { "id": "no", "label": "あまり興味がない", "tags": { "people": 1, "humanities": 1, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q052",
+    "category": "追加質問 情報",
+    "text": "データを見るなら何を知りたい？",
+    "options": [
+      { "id": "trend", "label": "流行の理由", "tags": { "society": 2, "data": 3, "business": 1 } },
+      { "id": "sales", "label": "売上の伸ばし方", "tags": { "business": 3, "data": 3 } },
+      { "id": "health", "label": "健康や医療", "tags": { "care": 3, "data": 2 } },
+      { "id": "climate", "label": "気候や環境", "tags": { "environment": 3, "data": 2 } },
+      { "id": "sports", "label": "試合の勝ち方", "tags": { "sports": 3, "data": 3 } }
+    ]
+  },
+  {
+    "id": "q053",
+    "category": "追加質問 工学",
+    "text": "壊れた家電があったら？",
+    "options": [
+      { "id": "open", "label": "中を見てみたい", "tags": { "engineering": 4 } },
+      { "id": "search", "label": "原因を調べたい", "tags": { "data": 2, "engineering": 2 } },
+      { "id": "use", "label": "便利な使い方を考えたい", "tags": { "design": 2, "business": 1 } },
+      { "id": "replace", "label": "早く買い替えたい", "tags": { "business": 1 } }
+    ]
+  },
+  {
+    "id": "q054",
+    "category": "追加質問 工学",
+    "text": "ものづくりで大事にしたいのは？",
+    "options": [
+      { "id": "safe", "label": "安全性", "tags": { "engineering": 3, "stability": 2 } },
+      { "id": "beauty", "label": "見た目の美しさ", "tags": { "design": 4, "art": 1 } },
+      { "id": "performance", "label": "性能", "tags": { "engineering": 4, "math": 1 } },
+      { "id": "eco", "label": "環境へのやさしさ", "tags": { "environment": 3, "engineering": 1 } },
+      { "id": "cost", "label": "コスト", "tags": { "business": 2, "engineering": 1 } }
+    ]
+  },
+  {
+    "id": "q055",
+    "category": "追加質問 医療福祉",
+    "text": "医療・福祉で近い関心は？",
+    "options": [
+      { "id": "nursing", "label": "患者に寄り添う", "tags": { "care": 5, "people": 2 } },
+      { "id": "rehab", "label": "体の回復を支える", "tags": { "care": 4, "sports": 2 } },
+      { "id": "public", "label": "地域の健康を守る", "tags": { "care": 3, "society": 2, "social_good": 2 } },
+      { "id": "system", "label": "制度や生活を支える", "tags": { "welfare": 4, "law": 1, "social_good": 2 } }
+    ]
+  },
+  {
+    "id": "q056",
+    "category": "追加質問 教育",
+    "text": "教えるなら、どんな場面がよい？",
+    "options": [
+      { "id": "school", "label": "学校の授業", "tags": { "education": 5 } },
+      { "id": "club", "label": "部活や活動", "tags": { "education": 2, "sports": 2, "communication": 1 } },
+      { "id": "career", "label": "進路相談", "tags": { "education": 3, "psychology": 2 } },
+      { "id": "digital", "label": "教材やアプリ", "tags": { "education": 2, "computer": 2, "design": 1 } }
+    ]
+  },
+  {
+    "id": "q057",
+    "category": "追加質問 社会",
+    "text": "ニュースで気になるのは？",
+    "options": [
+      { "id": "politics", "label": "政治・行政", "tags": { "law": 3, "society": 2 } },
+      { "id": "economy", "label": "景気・企業", "tags": { "business": 3, "society": 1 } },
+      { "id": "crime", "label": "事件・防犯", "tags": { "law": 2, "security": 2 } },
+      { "id": "tech", "label": "テクノロジー", "tags": { "computer": 2, "engineering": 2, "ai": 1 } },
+      { "id": "climate", "label": "気候・環境", "tags": { "environment": 4, "science": 1 } }
+    ]
+  },
+  {
+    "id": "q058",
+    "category": "追加質問 国際",
+    "text": "海外に関する興味は？",
+    "options": [
+      { "id": "language", "label": "言語を学びたい", "tags": { "global": 4, "english": 3 } },
+      { "id": "culture", "label": "文化を知りたい", "tags": { "global": 3, "humanities": 2 } },
+      { "id": "business", "label": "海外ビジネス", "tags": { "global": 3, "business": 3 } },
+      { "id": "aid", "label": "国際協力", "tags": { "global": 3, "social_good": 3, "law": 1 } },
+      { "id": "not", "label": "国内中心でよい", "tags": { "stability": 1, "society": 1 } }
+    ]
+  },
+  {
+    "id": "q059",
+    "category": "追加質問 芸術",
+    "text": "作品を作るなら重視したいのは？",
+    "options": [
+      { "id": "message", "label": "伝えたいメッセージ", "tags": { "art": 2, "media": 2, "society": 1 } },
+      { "id": "beauty", "label": "美しさ", "tags": { "art": 4, "design": 2 } },
+      { "id": "useful", "label": "使いやすさ", "tags": { "design": 4, "computer": 1 } },
+      { "id": "story", "label": "物語", "tags": { "media": 3, "humanities": 2 } },
+      { "id": "impact", "label": "話題性", "tags": { "media": 3, "business": 2 } }
+    ]
+  },
+  {
+    "id": "q060",
+    "category": "追加質問 地域",
+    "text": "地域に関わるなら？",
+    "options": [
+      { "id": "revive", "label": "地域を盛り上げたい", "tags": { "society": 3, "business": 2, "fieldwork": 2 } },
+      { "id": "tourism", "label": "観光を作りたい", "tags": { "business": 2, "global": 2, "fieldwork": 2 } },
+      { "id": "nature", "label": "自然を守りたい", "tags": { "environment": 4, "social_good": 2 } },
+      { "id": "infra", "label": "暮らしを支える仕組み", "tags": { "architecture": 2, "law": 2, "stability": 2 } }
+    ]
+  },
+  {
+    "id": "q061",
+    "category": "追加質問 仕事観",
+    "text": "新しいことに挑戦するのは？",
+    "options": [
+      { "id": "love", "label": "かなり好き", "tags": { "startup": 3, "freedom": 3 } },
+      { "id": "ok", "label": "準備できれば好き", "tags": { "study": 2, "business": 1 } },
+      { "id": "stable", "label": "安定してからがよい", "tags": { "stability": 3 } },
+      { "id": "avoid", "label": "できれば避けたい", "tags": { "stability": 4 } }
+    ]
+  },
+  {
+    "id": "q062",
+    "category": "追加質問 仕事観",
+    "text": "成果が見えるとうれしいのは？",
+    "options": [
+      { "id": "thanks", "label": "人に感謝される", "tags": { "care": 2, "education": 2, "social_good": 2 } },
+      { "id": "numbers", "label": "数字で伸びる", "tags": { "business": 3, "data": 2 } },
+      { "id": "product", "label": "形として完成する", "tags": { "engineering": 2, "design": 2, "art": 1 } },
+      { "id": "paper", "label": "研究成果になる", "tags": { "science": 3, "graduate": 3 } },
+      { "id": "attention", "label": "多くの人に届く", "tags": { "media": 3, "communication": 1 } }
+    ]
+  },
+  {
+    "id": "q063",
+    "category": "追加質問 理科",
+    "text": "理科で一番近いものは？",
+    "options": [
+      { "id": "physics", "label": "物理", "tags": { "science": 3, "engineering": 3, "math": 2 } },
+      { "id": "chemistry", "label": "化学", "tags": { "science": 4, "engineering": 1 } },
+      { "id": "biology", "label": "生物", "tags": { "science": 3, "care": 1, "environment": 1 } },
+      { "id": "earth", "label": "地学", "tags": { "science": 3, "environment": 2 } },
+      { "id": "none", "label": "特にない", "tags": { "humanities": 1, "business": 1 } }
+    ]
+  },
+  {
+    "id": "q064",
+    "category": "追加質問 社会科",
+    "text": "社会科で一番近いものは？",
+    "options": [
+      { "id": "geography", "label": "地理", "tags": { "environment": 2, "society": 2, "fieldwork": 1 } },
+      { "id": "history", "label": "歴史", "tags": { "humanities": 4 } },
+      { "id": "civics", "label": "公民", "tags": { "law": 3, "society": 2 } },
+      { "id": "economics", "label": "経済", "tags": { "business": 3, "data": 1 } },
+      { "id": "none", "label": "特にない", "tags": { "computer": 1, "art": 1 } }
+    ]
+  },
+  {
+    "id": "q065",
+    "category": "追加質問 進学条件",
+    "text": "大学選びで気になるのは？",
+    "options": [
+      { "id": "job", "label": "就職の強さ", "tags": { "stability": 3, "business": 1 } },
+      { "id": "license", "label": "資格取得", "tags": { "stability": 3, "care": 1, "education": 1 } },
+      { "id": "research", "label": "研究環境", "tags": { "graduate": 3, "science": 2 } },
+      { "id": "freedom", "label": "自由な学び", "tags": { "freedom": 3, "humanities": 1 } },
+      { "id": "location", "label": "通いやすさ", "tags": { "stability": 1 } }
+    ]
+  },
+  {
+    "id": "q066",
+    "category": "追加質問 進学条件",
+    "text": "入学後に増やしたい経験は？",
+    "options": [
+      { "id": "intern", "label": "インターン", "tags": { "business": 2, "communication": 1 } },
+      { "id": "study_abroad", "label": "留学", "tags": { "global": 3, "english": 2 } },
+      { "id": "lab", "label": "研究室活動", "tags": { "science": 2, "graduate": 3 } },
+      { "id": "field", "label": "現地調査", "tags": { "fieldwork": 3, "society": 1, "environment": 1 } },
+      { "id": "production", "label": "作品制作", "tags": { "art": 2, "design": 2, "media": 2 } }
+    ]
+  },
+  {
+    "id": "q067",
+    "category": "追加質問 人間理解",
+    "text": "人について知りたいのは？",
+    "options": [
+      { "id": "why", "label": "なぜそう考えるのか", "tags": { "psychology": 4 } },
+      { "id": "learn", "label": "どう学ぶのか", "tags": { "education": 3, "psychology": 2 } },
+      { "id": "health", "label": "どう健康を保つのか", "tags": { "care": 3, "sports": 1 } },
+      { "id": "buy", "label": "なぜ買うのか", "tags": { "business": 3, "psychology": 1 } },
+      { "id": "society", "label": "社会でどう動くのか", "tags": { "society": 3, "psychology": 1 } }
+    ]
+  },
+  {
+    "id": "q068",
+    "category": "追加質問 環境",
+    "text": "環境問題で気になるのは？",
+    "options": [
+      { "id": "climate", "label": "気候変動", "tags": { "environment": 4, "science": 2 } },
+      { "id": "energy", "label": "エネルギー", "tags": { "environment": 3, "engineering": 2, "science": 1 } },
+      { "id": "biodiversity", "label": "生物多様性", "tags": { "environment": 4, "science": 2 } },
+      { "id": "food", "label": "食料問題", "tags": { "environment": 2, "agriculture": 3, "society": 1 } },
+      { "id": "city", "label": "都市の環境", "tags": { "environment": 2, "architecture": 2, "society": 2 } }
+    ]
+  },
+  {
+    "id": "q069",
+    "category": "追加質問 ビジネス",
+    "text": "ビジネスでやってみたいのは？",
+    "options": [
+      { "id": "plan", "label": "新商品を企画する", "tags": { "business": 4, "design": 1 } },
+      { "id": "sell", "label": "販売戦略を考える", "tags": { "business": 4, "data": 1 } },
+      { "id": "manage", "label": "組織を動かす", "tags": { "business": 3, "communication": 2 } },
+      { "id": "account", "label": "お金の流れを読む", "tags": { "business": 3, "data": 2, "math": 1 } },
+      { "id": "start", "label": "自分で事業を作る", "tags": { "business": 3, "startup": 4 } }
+    ]
+  },
+  {
+    "id": "q070",
+    "category": "追加質問 法律行政",
+    "text": "社会のルールに関して興味があるのは？",
+    "options": [
+      { "id": "protect", "label": "人権を守る", "tags": { "law": 4, "social_good": 2 } },
+      { "id": "crime", "label": "犯罪を防ぐ", "tags": { "law": 3, "security": 2 } },
+      { "id": "policy", "label": "政策を作る", "tags": { "law": 3, "society": 3 } },
+      { "id": "company", "label": "企業のルール", "tags": { "law": 3, "business": 2 } },
+      { "id": "world", "label": "国際ルール", "tags": { "law": 3, "global": 2 } }
+    ]
+  },
+  {
+    "id": "q071",
+    "category": "追加質問 スポーツ",
+    "text": "スポーツに関わるなら？",
+    "options": [
+      { "id": "coach", "label": "教える・支える", "tags": { "sports": 4, "education": 2 } },
+      { "id": "science", "label": "体の仕組みを研究", "tags": { "sports": 3, "science": 2, "care": 1 } },
+      { "id": "data", "label": "データで分析", "tags": { "sports": 3, "data": 3 } },
+      { "id": "event", "label": "大会やイベント運営", "tags": { "sports": 3, "business": 2, "communication": 1 } }
+    ]
+  },
+  {
+    "id": "q072",
+    "category": "追加質問 メディア",
+    "text": "情報発信でやりたいのは？",
+    "options": [
+      { "id": "news", "label": "ニュースを伝える", "tags": { "media": 3, "society": 2 } },
+      { "id": "brand", "label": "企業や商品の魅力を伝える", "tags": { "media": 2, "business": 3 } },
+      { "id": "entertainment", "label": "人を楽しませる", "tags": { "media": 4, "art": 2 } },
+      { "id": "education", "label": "学びをわかりやすくする", "tags": { "media": 2, "education": 2, "design": 1 } }
+    ]
+  },
+  {
+    "id": "q073",
+    "category": "追加質問 研究姿勢",
+    "text": "わからないことがあると？",
+    "options": [
+      { "id": "search", "label": "すぐ調べる", "tags": { "study": 2, "data": 1 } },
+      { "id": "test", "label": "試して確かめる", "tags": { "science": 3, "engineering": 2 } },
+      { "id": "ask", "label": "人に聞く", "tags": { "communication": 2, "people": 1 } },
+      { "id": "think", "label": "自分で考え続ける", "tags": { "study": 3, "science": 1, "humanities": 1 } }
+    ]
+  },
+  {
+    "id": "q074",
+    "category": "追加質問 働く場所",
+    "text": "働く場所として惹かれるのは？",
+    "options": [
+      { "id": "office", "label": "オフィス", "tags": { "business": 2, "computer": 1 } },
+      { "id": "school", "label": "学校", "tags": { "education": 4 } },
+      { "id": "hospital", "label": "病院・施設", "tags": { "care": 4 } },
+      { "id": "lab", "label": "研究室", "tags": { "science": 3, "graduate": 3 } },
+      { "id": "studio", "label": "スタジオ・制作現場", "tags": { "art": 2, "media": 3 } },
+      { "id": "field", "label": "屋外・現地", "tags": { "fieldwork": 4, "environment": 1 } }
+    ]
+  },
+  {
+    "id": "q075",
+    "category": "追加質問 進路不安",
+    "text": "進路で一番不安なのは？",
+    "options": [
+      { "id": "fit", "label": "自分に合うか", "tags": { "psychology": 2 } },
+      { "id": "job", "label": "就職できるか", "tags": { "stability": 3, "business": 1 } },
+      { "id": "study", "label": "勉強についていけるか", "tags": { "study": 2 } },
+      { "id": "money", "label": "学費や収入", "tags": { "income": 2, "stability": 1 } },
+      { "id": "place", "label": "場所や生活", "tags": { "stability": 1 } }
+    ]
+  }
+]
