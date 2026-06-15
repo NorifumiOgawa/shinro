@@ -70,49 +70,49 @@ const SECTIONS = [
   {
     key: 'step2_people',
     ids: ['q004', 'q005', 'q006'],
-    trigger: t => (t.people || 0) + (t.communication || 0) >= 4,
+    trigger: t => (t.people || 0) + (t.communication || 0) >= 3,
     score:   t => (t.people || 0) + (t.communication || 0),
     supplements: ['q055', 'q056', 'q067']
   },
   {
     key: 'step3_pc',
     ids: ['q007', 'q008', 'q009', 'q010', 'q011'],
-    trigger: t => (t.computer || 0) + (t.ai || 0) + (t.data || 0) >= 3,
+    trigger: t => (t.computer || 0) + (t.ai || 0) + (t.data || 0) >= 2,
     score:   t => (t.computer || 0) + (t.ai || 0) + (t.data || 0),
     supplements: ['q051', 'q052']
   },
   {
     key: 'step4_making',
     ids: ['q012', 'q013', 'q014', 'q015', 'q016'],
-    trigger: t => (t.engineering || 0) + (t.design || 0) >= 3,
+    trigger: t => (t.engineering || 0) + (t.design || 0) >= 2,
     score:   t => (t.engineering || 0) + (t.design || 0) + (t.robotics || 0),
     supplements: ['q053', 'q054']
   },
   {
     key: 'step5_outdoor',
     ids: ['q017', 'q018', 'q019', 'q020', 'q021'],
-    trigger: t => (t.fieldwork || 0) + (t.environment || 0) >= 3,
+    trigger: t => (t.fieldwork || 0) + (t.environment || 0) >= 2,
     score:   t => (t.fieldwork || 0) + (t.environment || 0) + (t.marine || 0),
     supplements: ['q068', 'q060']
   },
   {
     key: 'step6_research',
     ids: ['q022', 'q023', 'q024', 'q025', 'q026'],
-    trigger: t => (t.science || 0) + (t.graduate || 0) >= 3,
+    trigger: t => (t.science || 0) + (t.graduate || 0) >= 2,
     score:   t => (t.science || 0) + (t.graduate || 0),
     supplements: ['q073', 'q063']
   },
   {
     key: 'step7_humanities',
     ids: ['q027', 'q028', 'q029', 'q030', 'q031'],
-    trigger: t => (t.humanities || 0) + (t.law || 0) + (t.study || 0) >= 3,
+    trigger: t => (t.humanities || 0) + (t.law || 0) + (t.study || 0) >= 2,
     score:   t => (t.humanities || 0) + (t.law || 0) + (t.study || 0),
     supplements: ['q064', 'q057', 'q070']
   },
   {
     key: 'step8_art',
     ids: ['q032', 'q033', 'q034', 'q035'],
-    trigger: t => (t.art || 0) + (t.media || 0) >= 3,
+    trigger: t => (t.art || 0) + (t.media || 0) >= 2,
     score:   t => (t.art || 0) + (t.media || 0) + (t.design || 0),
     supplements: ['q059', 'q072']
   }
@@ -154,7 +154,7 @@ function buildActiveQuestions() {
 
   // 何も該当しない場合はスコア最大のセクション1つをフォールバック表示
   const sectionsToShow = triggered.length > 0
-    ? triggered.slice(0, 2)
+    ? triggered.slice(0, 3)
     : [SECTIONS.reduce((best, s) => s.score(step1Scores) > best.score(step1Scores) ? s : best)];
 
   sectionsToShow.forEach(s => s.ids.forEach(addQ));
