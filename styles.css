@@ -180,6 +180,20 @@ main {
   background: var(--accent-strong);
 }
 
+#startButton {
+  min-height: 58px;
+  padding: 0 40px;
+  font-size: 1.08rem;
+  letter-spacing: 0.03em;
+  box-shadow: 0 4px 18px rgba(13, 107, 104, 0.38);
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+
+#startButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(13, 107, 104, 0.46);
+}
+
 .ghost-button {
   border: 1px solid var(--line);
   background: rgba(255, 253, 247, 0.8);
