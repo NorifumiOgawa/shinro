@@ -49,6 +49,48 @@
     "tags": { "law": 5, "society": 3, "study": 3, "stability": 2, "social_good": 2 }
   },
   {
+    "id": "public_admin_service",
+    "name": "地方公務員・行政サービス",
+    "faculties": ["法学部", "政策学部", "地域創生学部"],
+    "description": "市役所・県庁などで、地域の暮らし、制度、福祉、防災、まちづくりを支えたい人に向いています。",
+    "tags": { "public_service": 5, "local_government": 5, "law": 3, "society": 3, "stability": 3, "social_good": 3 }
+  },
+  {
+    "id": "police_fire_safety",
+    "name": "警察・消防・防犯防災",
+    "faculties": ["法学部", "危機管理学部", "現代社会学部"],
+    "description": "地域の安全、犯罪防止、災害対応、救急、防犯活動に関心がある人に向いています。",
+    "tags": { "law_enforcement": 5, "disaster_response": 4, "law": 3, "security": 3, "stability": 2, "social_good": 3, "fieldwork": 2 }
+  },
+  {
+    "id": "defense_security",
+    "name": "自衛官・防衛安全保障",
+    "faculties": ["防衛大学校", "法学部", "国際関係学部"],
+    "description": "国の安全、防衛、災害派遣、国際平和協力、組織行動に関心がある人に向いています。",
+    "tags": { "defense": 5, "public_service": 4, "stability": 3, "social_good": 3, "fieldwork": 3, "global": 2, "law": 2 }
+  },
+  {
+    "id": "coast_guard_maritime",
+    "name": "海上保安・海の安全",
+    "faculties": ["海上保安大学校", "海洋学部", "法学部"],
+    "description": "海の安全、救難、海上警備、船舶運航、海洋環境の保全に関心がある人に向いています。",
+    "tags": { "maritime_safety": 5, "marine": 4, "law_enforcement": 3, "public_service": 3, "fieldwork": 3, "social_good": 3, "law": 2 }
+  },
+  {
+    "id": "legal_professions",
+    "name": "弁護士・裁判官・検察官",
+    "faculties": ["法学部", "法科大学院", "公共政策学部"],
+    "description": "法律を使って人や社会を守る仕事、裁判、紛争解決、司法制度に関心がある人に向いています。",
+    "tags": { "justice": 5, "law": 5, "study": 4, "social_good": 2, "communication": 2, "stability": 1 }
+  },
+  {
+    "id": "accounting_cpa",
+    "name": "会計士・会計専門職",
+    "faculties": ["商学部", "経営学部", "会計専門職大学院"],
+    "description": "企業のお金の流れ、監査、財務、会計、数字で経営を支える仕事に関心がある人に向いています。",
+    "tags": { "accounting": 5, "business": 4, "data": 3, "math": 3, "study": 3, "stability": 2, "income": 2 }
+  },
+  {
     "id": "international_languages",
     "name": "国際・外国語・文化",
     "faculties": ["国際学部", "外国語学部", "文学部"],

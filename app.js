@@ -19,6 +19,14 @@ const labels = {
   ai: "AI",
   data: "データ分析",
   security: "セキュリティ",
+  public_service: "公共サービス",
+  local_government: "地方行政",
+  law_enforcement: "警察・法執行",
+  defense: "防衛・安全保障",
+  maritime_safety: "海上保安",
+  disaster_response: "防災・救急",
+  justice: "司法",
+  accounting: "会計",
   engineering: "工学",
   architecture: "建築",
   mobility: "自動車・航空",
@@ -331,7 +339,7 @@ function renderUniversities() {
 
   if (candidates.length === 0) {
     elements.universityResults.innerHTML =
-      '<p class="empty">条件に合う大学候補がありません。条件を少し広げてください。</p>';
+      '<p class="empty">条件に合う大学・進路候補がありません。条件を少し広げてください。</p>';
     return;
   }
 
@@ -376,7 +384,8 @@ function typeLabel(type) {
   return {
     national: "国立",
     public: "公立",
-    private: "私立"
+    private: "私立",
+    ministry_school: "省庁大学校"
   }[type] || type;
 }
 

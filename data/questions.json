@@ -888,5 +888,53 @@
       { "id": "money", "label": "学費や収入", "tags": { "income": 2, "stability": 1 } },
       { "id": "place", "label": "場所や生活", "tags": { "stability": 1 } }
     ]
+  },
+  {
+    "id": "q076",
+    "category": "追加質問 公共サービス",
+    "text": "公務員や公共サービスで興味があるのは？",
+    "options": [
+      { "id": "local", "label": "市役所・県庁で地域を支える", "tags": { "public_service": 4, "local_government": 5, "law": 2, "social_good": 2, "stability": 2 } },
+      { "id": "police", "label": "警察官として安全を守る", "tags": { "law_enforcement": 5, "law": 3, "security": 2, "fieldwork": 2, "stability": 2 } },
+      { "id": "fire", "label": "消防・救急・防災に関わる", "tags": { "disaster_response": 5, "fieldwork": 3, "social_good": 3, "care": 1, "stability": 1 } },
+      { "id": "defense", "label": "自衛官として国や人を守る", "tags": { "defense": 5, "public_service": 3, "fieldwork": 3, "stability": 2, "social_good": 2 } },
+      { "id": "coast", "label": "海上保安官として海の安全を守る", "tags": { "maritime_safety": 5, "marine": 3, "law_enforcement": 2, "fieldwork": 3, "social_good": 2 } }
+    ]
+  },
+  {
+    "id": "q077",
+    "category": "追加質問 安全保障・防災",
+    "text": "人や社会を守る仕事で近いのは？",
+    "options": [
+      { "id": "crime", "label": "犯罪を防ぐ・捜査する", "tags": { "law_enforcement": 5, "law": 3, "security": 2 } },
+      { "id": "disaster", "label": "災害時に現場で動く", "tags": { "disaster_response": 5, "fieldwork": 4, "social_good": 2 } },
+      { "id": "policy", "label": "制度や政策で守る", "tags": { "public_service": 4, "local_government": 3, "law": 3, "society": 2 } },
+      { "id": "international", "label": "国際的な平和や安全に関わる", "tags": { "defense": 4, "global": 3, "law": 2, "social_good": 1 } },
+      { "id": "sea", "label": "海上の事故や違反に対応する", "tags": { "maritime_safety": 5, "marine": 3, "law_enforcement": 2 } }
+    ]
+  },
+  {
+    "id": "q078",
+    "category": "追加質問 法曹・会計",
+    "text": "専門職として興味があるのは？",
+    "options": [
+      { "id": "lawyer", "label": "弁護士として人を支える", "tags": { "justice": 5, "law": 5, "communication": 2, "social_good": 2, "study": 3 } },
+      { "id": "judge", "label": "裁判官として公正に判断する", "tags": { "justice": 5, "law": 5, "study": 4, "stability": 2 } },
+      { "id": "prosecutor", "label": "検察官として社会正義に関わる", "tags": { "justice": 4, "law": 5, "law_enforcement": 2, "social_good": 2, "study": 3 } },
+      { "id": "cpa", "label": "公認会計士として企業を支える", "tags": { "accounting": 5, "business": 3, "math": 2, "data": 2, "study": 3, "income": 2 } },
+      { "id": "tax", "label": "税理士・会計でお金を扱う", "tags": { "accounting": 4, "business": 3, "math": 2, "stability": 2 } }
+    ]
+  },
+  {
+    "id": "q079",
+    "category": "追加質問 組織で働く",
+    "text": "大きな組織で働くなら、どんな役割が合いそう？",
+    "options": [
+      { "id": "frontline", "label": "現場で判断して動く", "tags": { "fieldwork": 3, "law_enforcement": 2, "disaster_response": 2, "defense": 1 } },
+      { "id": "support", "label": "住民や利用者を支える", "tags": { "public_service": 4, "local_government": 3, "people": 2, "social_good": 2 } },
+      { "id": "rule", "label": "ルールを作る・運用する", "tags": { "law": 4, "public_service": 2, "justice": 2, "study": 2 } },
+      { "id": "money", "label": "予算やお金を管理する", "tags": { "accounting": 4, "business": 2, "data": 2, "math": 2 } },
+      { "id": "command", "label": "チームをまとめて任務を進める", "tags": { "defense": 3, "law_enforcement": 2, "communication": 2, "stability": 1 } }
+    ]
   }
 ]
