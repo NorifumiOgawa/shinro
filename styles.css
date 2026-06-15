@@ -354,9 +354,58 @@ main {
   font-weight: 800;
 }
 
-.score {
-  color: var(--rose);
-  font-weight: 900;
+.score-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0 12px;
+}
+
+.score-bar-track {
+  flex: 1;
+  height: 7px;
+  background: #e8ede3;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.score-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--sun));
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.score-label {
+  font-size: 0.78rem;
+  color: var(--muted);
+  white-space: nowrap;
+  min-width: 68px;
+  font-weight: 800;
+}
+
+.match-reason {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 12px;
+}
+
+.reason-prefix {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.reason-tag {
+  background: rgba(13, 107, 104, 0.08);
+  color: var(--accent-strong);
+  font-size: 0.75rem;
+  padding: 2px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(13, 107, 104, 0.22);
+  font-weight: 700;
 }
 
 .filter-section {
